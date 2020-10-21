@@ -1,0 +1,22 @@
+<html>
+    <body>
+        <h1>Profiles</h1>
+        {% block content %}
+        <table style="border: 1px solid;">
+            <th>
+                <td>User Id</td>
+                <td>Id</td>
+                <td>Title</td>
+                <td>Completed</td>
+            </th>
+            <tr>
+                <td>{{ userid }}</td>
+                <td>{{ id }}</td>
+                <td>{{ title }}</td>
+                <td>{{ completed }}</td>
+            </tr>
+        </table>
+
+        {% endblock %}
+    </body>
+</html>
